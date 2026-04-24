@@ -1,0 +1,8 @@
+import{n as e}from"./chunk-DnJy8xQt.js";import{J as t,a as n,c as r,l as i,o as a,r as o,t as s}from"./iframe-CIQkLSEM.js";var c,l,u,d=e((()=>{t(),s(),c=i(),l=({colorName:e,colorValue:t})=>(0,c.jsxs)(n,{sx:{mb:4,p:2,border:`1px solid #ccc`,textAlign:`center`},children:[(0,c.jsx)(n,{sx:{width:100,height:100,backgroundColor:t,borderRadius:1,border:`1px solid ${t}`,display:`flex`,alignItems:`center`,justifyContent:`center`}}),(0,c.jsx)(a,{variant:`subtitle2`,align:`center`,children:t})]}),u=({themeName:e})=>{let t=r();return(0,c.jsxs)(n,{sx:{p:4},children:[(0,c.jsxs)(a,{variant:`h4`,gutterBottom:!0,children:[`Theme: `,e]}),(0,c.jsx)(o,{container:!0,spacing:4,children:[`primary`,`secondary`,`error`,`warning`,`info`,`success`].map(e=>(0,c.jsxs)(o,{item:!0,xs:12,sm:6,md:4,children:[(0,c.jsx)(a,{variant:`h6`,sx:{textTransform:`capitalize`,mb:1},children:e}),(0,c.jsx)(l,{colorName:`Main`,colorValue:t.palette[e].main}),(0,c.jsx)(l,{colorName:`Light`,colorValue:t.palette[e].light}),(0,c.jsx)(l,{colorName:`Dark`,colorValue:t.palette[e].dark})]},e))})]})}})),f,p,m,h;e((()=>{t(),d(),f=i(),p={title:`Theme Palette`,component:u},m={render:(e,{globals:t})=>(0,f.jsx)(u,{themeName:t.theme})},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  render: (args, {
+    globals
+  }) => {
+    // Grab the theme name from globals and pass as a prop
+    return <ColorPalette themeName={globals.theme} />;
+  }
+}`,...m.parameters?.docs?.source}}},h=[`ThemePalette`]}))();export{m as ThemePalette,h as __namedExportsOrder,p as default};
